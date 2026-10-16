@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "SmartRDV",
+    "slug": "smartrdv-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "smartrdv",
+    "icon": "./assets/icon.jpg",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1e3a8a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+       "foregroundImage": "./assets/adaptive-icon.png",
+       "backgroundColor": "#1e3a8a"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+
+}
+
